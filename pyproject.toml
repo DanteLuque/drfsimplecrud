@@ -1,0 +1,18 @@
+[project]
+name = "drf-crud"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "DanDev1004",email = "dandeveloper1004@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django (>=5.2.6,<6.0.0)",
+    "djangorestframework (>=3.16.1,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
