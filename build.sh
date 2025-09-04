@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -o errexit
 
-poetry install
+poetry install --no-root --only main
 
 python manage.py collectstatic --no-input
 
